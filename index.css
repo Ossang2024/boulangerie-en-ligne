@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Poppins", serif; 
+}
+
+
+/* mise en forme de la premiere section */
+.section1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/bg\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section1 .con {
+    /* display: none; */
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(2, 25, 66, 0.764); */
+    background-color: #031720d1;
+}
+
+.section1 header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 30px;
+    color: white;
+    gap: 0px 70px;
+}
+
+.section1 header .logo img {
+    width: 80px;
+    height: 50px;
+}
+
+.section1 header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-style: italic;
+}
+
+.section1 header ul li a:hover {
+    color: rgb(139, 109, 13);
+    border-bottom: solid 2px rgb(139, 109, 13);
+}
+
+.section1 header .commande a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid rgba(139, 110, 13, 0.378);
+    background-color: #030c13b3;
+    transition: 0.5s ease-in-out;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-style: italic;
+
+}
+
+.section1 header .commande a:hover {
+    background-color: #0c3757a8;
+    border: 2px solid rgba(139, 110, 13, 0.378);
+}
+
+.section1 .centre{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    padding-bottom: 0px;
+}
+
+.section1 .slogan {
+    width: 50%;
+    padding: 20px 10px;
+}
+
+.section1 .slogan .smalltxt{
+    font-size: 17px;
+    color: rgba(139, 110, 13, 0.815);
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section1 .slogan .bigtxt{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section1 .slogan a {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgba(139, 110, 13, 0.378);
+    background-color: #030c13b3;
+    transition: 0.5s ease-in-out;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.section1 .slogan .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .slogan .link a:hover {
+    background-color: #0c3757a8;
+}
+
+.section1 .centre img {
+    height: 350px;
+    width: 300px;
+    padding: 3px;
+    border: 3px solid rgba(139, 110, 13, 0.378);
+}
+
+.section1 .couteau {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 120px;
+    right: 140px;
+}
+
+.section1 .gatt {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    top: 320px;
+    right: 460px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MODÉLISATION DE LA SECTION 2 */
+.section2 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #030C13;
+    color: white;
+}
+
+.section2 .grigri{
+    float: inline-end;
+}
+
+.section2 .div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+
+
+.section2 .div .txt1{
+    font-size: 20px;
+    color: rgba(139, 110, 13, 0.815);
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section2 .div .txt2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 200;
+}
+
+.section2 .div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.section2 .div2 .patissier{
+    height: 350px;
+}
+
+.section2 .div2 .props{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.section2 .div2 .props p{
+    font-size: 12px;
+}
+
+.section2 .div2 .props p span{
+    font-size: 15px;
+    color: rgba(139, 110, 13, 0.815);
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section2 .div2 .props img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MODÉLISATION DE LA SECTION 3 */
+.section3 {
+    min-height: 100vh;
+    background-color: #030C13;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;    
+}
+
+.section3 .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 0px 200px;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.section3 .title1{
+    font-size: 15px;
+    color: rgba(139, 110, 13, 0.815);
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section3 .title2{
+    font-size: 40px;
+    font-weight: 200;    
+}
+
+.section3 .title3{
+    font-size: 12px;
+    font-weight: 200;    
+}
+
+.section3 .cath {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 10px;
+    flex-direction: row;
+}
+
+.section3 .photo{
+    position: relative;
+    display: inline-block;
+    width: 220px; /* Ajustez la taille selon vos besoins */
+    height: 300px; /* Ajustez la taille selon vos besoins */
+    overflow: hidden;
+    margin: auto;
+}
+
+.section3 .photo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
+  
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+  
+.photo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Transparent par défaut */
+    opacity: 0; /* Invisible par défaut */
+    transition: background-color 0.3s ease, opacity 0.3s ease; 
+}
+
+.photo p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0; /* Texte invisible au départ */
+    transform: translateY(20px); /* Légèrement décalé vers le bas */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Apparition fluide */
+  }
+  
+.photo:hover .overlay {
+    /* background-color: rgba(0, 0, 0, 0.5); Couleur sombre semi-transparente au survol */
+    background-color: #031720d1;
+    opacity: 1;
+}
+
+.photo:hover p {
+    opacity: 1; /* Texte visible */
+    transform: translateY(0);
+}
+
+.section3 button {
+    font-size: 40px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 230px;
+    flex-direction: row;
+    cursor: pointer;
+    color: wheat;
+    font-weight: 400;
+    transition: ease-in-out 0.5s;
+    z-index: 10;
+}
+
+.section3 button:hover{
+    background-color: black;
+}
+
+.section3 #prev{
+    left: -10px;
+}
+
+.section3 #next{
+    right: -90%;
+    overflow: hidden;
+}
+
